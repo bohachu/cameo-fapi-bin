@@ -10,7 +10,7 @@ else
 	esac
 fi
 
-cameo_uri="https://fapi.cameo.tw/download/cameo-fapi-${target}.zip"
+cameo_uri="https://fapi.cameo.tw/cameo-fapi-${target}.zip"
 
 cameo_install="${CAMEO_INSTALL:-$HOME/.cameo}"
 bin_dir="$cameo_install/bin"
