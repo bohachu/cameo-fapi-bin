@@ -34,7 +34,7 @@ else
 	*) shell_profile=".bash_profile" ;;
 	esac
 	echo "Manually add the directory to your \$HOME/$shell_profile (or similar)"
-	echo "  export DENO_INSTALL=\"$cameo_install\""
+	echo "  export CAMEO_INSTALL=\"$cameo_install\""
 	echo "  export PATH=\"\$CAMEO_INSTALL/bin:\$PATH\""
 	echo "Run '$exe --help' to get started"
 fi
